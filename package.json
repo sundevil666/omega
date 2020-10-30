@@ -10,7 +10,8 @@
         "blazy": "^1.8.2",
         "gsap": "^2.1.2",
         "hamburgers": "^0.9.3",
-        "jquery": "^3.3.1"
+        "jquery": "^3.3.1",
+        "vue": "^2.6.12"
     },
     "devDependencies": {
         "acorn": "^6.1.1",

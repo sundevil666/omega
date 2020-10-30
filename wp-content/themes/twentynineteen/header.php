@@ -20,8 +20,5 @@
 
 <body <?php body_class(); ?>>
 
-<div class="header">
-    header
-</div>
 
 

@@ -1,19 +1,23 @@
 <template>
-  <div>
-    <h1>
-      app {{ msg }}
-    </h1>
+  <div class="grid main-page">
+    <my-header/>
+    <myContent/>
+    <my-footer />
   </div>
 </template>
 
 <script>
+import myHeader from './header/Header'
+import myContent from './main/Content'
+import myFooter from './footer/Footer'
+
 export default {
-  name: 'App',
-  data() {
-    return {
-      msg: 'hell, Dimon'
-    }
-  }
+  name: 'app',
+  components: {
+    myHeader,
+    myContent,
+    myFooter,
+  },
 }
 </script>
 

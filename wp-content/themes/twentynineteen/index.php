@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
-<div class="hello">Hello - Please make page here!</div>
-
+<div id="app">
+  <app></app>
+</div>
 <?php get_footer(); ?>
